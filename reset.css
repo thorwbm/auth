@@ -1,5 +1,8 @@
 :root{
   --main-bg-collor: #ffffff;
+  --main-bg-collor-gray: #F0F1F3;
+  --main-bg-collor-buttom: #635DFF;
+  --main-border-input:#C2C8D0;
 }
 
 * {

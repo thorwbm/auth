@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: #F0F1F3;
+    background:var(--main-bg-collor-gray);
     display: flex;
 }
 
@@ -10,7 +10,7 @@ body {
     width: 402px;
     margin: auto;
 
-    background: #fff;
+    background:var(--main-bg-collor);
 
     display: flex;
     /* justify-content: center; */
@@ -25,7 +25,7 @@ body {
 .conteudo {
     margin-top: 48px;
     width: 306px;
-    background: #ffffff;
+    background: var(--main-bg-collor);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,13 +33,13 @@ body {
 }
 
 img {
-    background: #ffffff;
+    background: var(--main-bg-collor);
 }
 
 .imagem-logo {
     width: 48px;
     height: 52px;
-    background: #ffffff;
+    background: var(--main-bg-collor);
 }
 
 .titulo-login {
@@ -58,7 +58,7 @@ img {
     flex-direction: column;
     gap:20px;
 
-    border-color: #C2C8D0;
+    border-color: var(--main-border-input);
     border-style: solid;
     border-width: thin;
 }
@@ -77,7 +77,7 @@ input{
 
     margin-top: 40px;
 
-    background: #635DFF;
+    background: var(--main-bg-collor-buttom);
     text-align: center;
 
     display: flex;
